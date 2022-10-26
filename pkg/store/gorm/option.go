@@ -37,7 +37,7 @@ func RawConfig(key string) *Config {
 	config.Name = key
 
 	if err := cfg.UnmarshalKey(key, &config, cfg.TagName("toml")); err != nil {
-		xlog.Jupiter().Panic("unmarshal config", xlog.FieldErr(err), xlog.FieldName(key))
+		xlog.Jupiter().Panic("unmarshal config:"+key, xlog.FieldErr(err), xlog.FieldName(key))
 	}
 
 	if xdebug.IsDevelopmentMode() {

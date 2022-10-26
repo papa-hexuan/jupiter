@@ -60,7 +60,7 @@ func RawConfig(key string) Config {
 	}
 
 	if err := conf.UnmarshalKey(key, &config, conf.TagName("toml")); err != nil {
-		xlog.Jupiter().Warn("unmarshal config", zap.String("key", key), zap.Error(err))
+		xlog.Jupiter().Warn("unmarshal config:"+key, zap.String("key", key), zap.Error(err))
 
 		return config
 	}

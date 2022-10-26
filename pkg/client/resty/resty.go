@@ -87,7 +87,7 @@ func StdConfig(name string) *Config {
 func RawConfig(key string) *Config {
 	var config = DefaultConfig()
 	if err := conf.UnmarshalKey(key, &config, conf.TagName("toml")); err != nil {
-		xlog.Jupiter().Panic("unmarshal config", xlog.FieldName(key), xlog.FieldExtMessage(config))
+		xlog.Jupiter().Panic("unmarshal config:"+key, xlog.FieldName(key), xlog.FieldExtMessage(config))
 	}
 
 	if xdebug.IsDevelopmentMode() {
