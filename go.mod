@@ -9,7 +9,7 @@ require (
 	github.com/alicebob/miniredis/v2 v2.23.0
 	github.com/apache/rocketmq-client-go/v2 v2.1.1
 	github.com/codegangsta/inject v0.0.0-20150114235600-33e0aa1cb7c0
-	github.com/coocood/freecache v1.2.2
+	github.com/coocood/freecache v1.2.4
 	github.com/cosmtrek/air v1.40.4
 	github.com/davecgh/go-spew v1.1.1
 	github.com/dimiro1/banner v1.1.0
@@ -37,7 +37,6 @@ require (
 	github.com/pkg/errors v0.9.1
 	github.com/prometheus/client_golang v1.13.0
 	github.com/robfig/cron/v3 v3.0.1
-	github.com/samber/lo v1.33.0
 	github.com/smallnest/weighted v0.0.0-20200122032019-adf21c9b8bd1
 	github.com/smartystreets/goconvey v1.7.2
 	github.com/spf13/cast v1.5.0
