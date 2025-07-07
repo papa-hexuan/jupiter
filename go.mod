@@ -6,7 +6,7 @@ require (
 	cirello.io/pglock v1.9.0
 	github.com/BurntSushi/toml v1.2.0
 	github.com/alibaba/sentinel-golang v1.0.4
-	github.com/alicebob/miniredis/v2 v2.23.0
+	github.com/alicebob/miniredis/v2 v2.35.0
 	github.com/apache/rocketmq-client-go/v2 v2.1.1
 	github.com/codegangsta/inject v0.0.0-20150114235600-33e0aa1cb7c0
 	github.com/coocood/freecache v1.2.2
@@ -37,7 +37,6 @@ require (
 	github.com/pkg/errors v0.9.1
 	github.com/prometheus/client_golang v1.13.0
 	github.com/robfig/cron/v3 v3.0.1
-	github.com/samber/lo v1.33.0
 	github.com/smallnest/weighted v0.0.0-20200122032019-adf21c9b8bd1
 	github.com/smartystreets/goconvey v1.7.2
 	github.com/spf13/cast v1.5.0
@@ -66,7 +65,6 @@ require (
 
 require (
 	github.com/StackExchange/wmi v1.2.1 // indirect
-	github.com/alicebob/gopher-json v0.0.0-20200520072559-a9ecdc9d1d3a // indirect
 	github.com/andybalholm/brotli v1.0.4 // indirect
 	github.com/beorn7/perks v1.0.1 // indirect
 	github.com/cespare/xxhash/v2 v2.1.2 // indirect
@@ -136,7 +134,7 @@ require (
 	github.com/xdg-go/scram v1.1.1 // indirect
 	github.com/xdg-go/stringprep v1.0.3 // indirect
 	github.com/youmark/pkcs8 v0.0.0-20181117223130-1be2e3e5546d // indirect
-	github.com/yuin/gopher-lua v0.0.0-20210529063254-f4c35e4016d9 // indirect
+	github.com/yuin/gopher-lua v1.1.1 // indirect
 	go.etcd.io/etcd/client/pkg/v3 v3.5.5 // indirect
 	go.uber.org/atomic v1.9.0 // indirect
 	golang.org/x/crypto v0.0.0-20220622213112-05595931fe9d // indirect
